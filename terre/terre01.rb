@@ -1,1 +1,6 @@
-puts File.basename("/Users/wilfriedmoffen/Documents/epreuves/terre/terre01.rb")
+name = `pwd`
+#get path of file
+puts File.basename(name)
+
+#get name of file
+puts "#{$0}"
