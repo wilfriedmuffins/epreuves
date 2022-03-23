@@ -1,24 +1,5 @@
-# if [(ARGV[0] / ARGV[0]) == 1 ]& [(ARGV[0] / 1 ) == ARGV[0]]
 
-# end
 resultat_tab = []
-# a = (ARGV[0].to_i).fdiv(7).to_s.match(/[^.]*$/)
-# p (ARGV[0].to_i).fdiv(7).to_s.match(/[^.]*$/)
-
-# p a[0] > "0"
-
-# for i in 1..(ARGV[0].to_i)
-#     a = (ARGV[0].to_i).fdiv(i).to_s.match(/[^.]*$/)
-#     resultat_tab.push(a) if !(a[0] > "0")
-#     p resultat_tab
-#     #p (ARGV[0].to_i).fdiv(i).to_s.match(/[^.]*$/) > "0"
-#     # #puts "pour #{i} #{(ARGV[0].to_i).fdiv(i)}" #if (ARGV[0].to_i).fdiv(i).is_a
-#     #resultat_tab.push((ARGV[0].to_i).fdiv(i))
-
-# end
-
-
-
 
 if !ARGV[0].match?(/\A-?\d+\Z/) 
     puts "#{ARGV[0]} n'est pas un nombre"
