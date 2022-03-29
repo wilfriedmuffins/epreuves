@@ -3,7 +3,7 @@
 #pseudo code
 # si ARGV[Ø] est un nombre
 # #   pour i de 0 a ARGV[n].length - 1
-# #     si ARGV[i] > ARGV[i+1] alors 
+# #     si ARGV[i] < ARGV[i+1] alors 
 # #         affiché trié si i egal ARGV.length - 2
 # #     sinon
 # #         pas trié
@@ -24,7 +24,7 @@ if (ARGV[0].match?(/\A-?\d+\Z/)) && (ARGV.length >= 2)
             puts "Pas triée"
         end
     end
-elsif 
+else
     p "erreur."
 end
 
