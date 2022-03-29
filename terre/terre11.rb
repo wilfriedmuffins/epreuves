@@ -13,7 +13,7 @@
 # fin si
 
 
-if !ARGV[0].match?(/^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/)
+if !ARGV[0].match?(/^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/) || ARGV.length > 1
     puts "mauvais format"
 else
     if ARGV[0].match?(/(0[0-9]|1[0-2]):[0-5][0-9]$/)
