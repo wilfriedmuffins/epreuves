@@ -6,11 +6,6 @@ number_2 = ARGV[1].to_i
 # si vide ARGV.empty?
 # si nbr of number supé 2 ARGV.length > 2
 
-# ARGV.each do |arg|
-#     puts arg.match?(/\A-?\d+\Z/) 
-# end
-
-
 if (ARGV[0].to_i.negative? || ARGV[1].to_i.negative?) || ARGV.empty? || ARGV.length > 2 || !ARGV[0].match?(/\A-?\d+\Z/) || !ARGV[1].match?(/\A-?\d+\Z/) 
     puts "erreur."
 else   

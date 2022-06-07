@@ -4,3 +4,5 @@ puts File.basename(name)
 
 #get name of file
 puts "#{$0}"
+
+puts

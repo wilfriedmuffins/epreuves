@@ -1,4 +1,5 @@
 
+
 if !ARGV[0].match?(/\A-?\d+\Z/) || ARGV.length > 1
     puts "erreur."
 else
@@ -7,7 +8,7 @@ end
 
 
 # si arg0 n'est pas un nombre
-# alors affficher erreur
+#   alors affficher erreur
 # sinon 
-#  multiplier par 0.5
+#  multiplier par 0.5 pour faire la racine
 # end

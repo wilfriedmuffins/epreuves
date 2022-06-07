@@ -8,5 +8,3 @@ else
 end
 
 puts taille
-
-#RECHECK

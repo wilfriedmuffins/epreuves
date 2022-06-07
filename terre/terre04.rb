@@ -6,3 +6,5 @@ elsif ((ARGV[0].to_i).abs)%2 == 0
 else
     puts "impair"
 end
+
+puts ARGV[0].match?()
