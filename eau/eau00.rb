@@ -31,9 +31,9 @@
     
     # Gestion d'érreur
     # Parsing
+    split_element(number_range)
 
     # Résolution
-    split_element(number_range)
     number_range = ascending_order(number_range)
 
     # Affichage
