@@ -1,8 +1,5 @@
 #Créez un programme qui affiche ses arguments reçus à l’envers.
 
-#pseudo code:
-#afficher Argv en partant du dernière element du tableau
-
 #fonction
 def get_data
     tab = []
@@ -26,7 +23,6 @@ def errors?
             exit
         end
     end
-
 end
 
 #gestion d'erreur
@@ -36,10 +32,3 @@ errors?
 get_data
 #resolution
 inverser
-
-
-
-
-
-
-
