@@ -4,7 +4,6 @@
 #         alors mettre element dans tab[i] et ARGVi+1 dans tab[i+1] 
 #     fin  si
 # fin pour
-
 #
 
 element=0

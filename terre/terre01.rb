@@ -3,6 +3,6 @@ name = `pwd`
 puts File.basename(name)
 
 #get name of file
-puts "#{$0}"
+puts $0
 
-puts
+#puts __FILE__
